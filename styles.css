@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(220, 15%, 55%);
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: "Outfit", sans-serif;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+background-color: white;
+justify-content: center;
+padding: 15px;
+border-radius: 3%;
+
+}
+.card .title{
+color: hsl(218, 44%, 22%);
+font-weight: 700;
+display: flex;
+justify-content: center;
+padding: 20px 20px 10px;
+font-size: 1.5rem;
+text-align: center;
+}
+.card .subtitle{
+color: hsl(220, 15%, 55%);
+font-weight: 400;
+display: flex;
+justify-content: center;
+margin: 1px 10px 30px;
+text-align: center;
+}
+.card .qrcode{
+    width: 340px;
+    border-radius: 3%;
+    
+}
